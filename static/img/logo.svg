@@ -1,0 +1,55 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Gradient Definitions -->
+  <defs>
+    <linearGradient id="mainGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="lightGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4facfe;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00f2fe;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="95" fill="url(#mainGradient)" opacity="0.15"/>
+  
+  <!-- Robot Head - Simplified -->
+  <rect x="55" y="45" width="90" height="75" rx="25" fill="url(#lightGradient)"/>
+  
+  <!-- Antenna -->
+  <rect x="95" y="25" width="10" height="20" rx="5" fill="url(#mainGradient)"/>
+  <circle cx="100" cy="20" r="12" fill="#f093fb"/>
+  <circle cx="100" cy="20" r="6" fill="#fff"/>
+  
+  <!-- Eyes - Simple and Clean -->
+  <circle cx="75" cy="75" r="16" fill="#fff"/>
+  <circle cx="75" cy="75" r="10" fill="#4a5fe4"/>
+  <circle cx="78" cy="72" r="5" fill="#fff"/>
+  
+  <circle cx="125" cy="75" r="16" fill="#fff"/>
+  <circle cx="125" cy="75" r="10" fill="#4a5fe4"/>
+  <circle cx="128" cy="72" r="5" fill="#fff"/>
+  
+  <!-- Happy Smile -->
+  <path d="M 70 100 Q 100 115 130 100" stroke="#4a5fe4" stroke-width="6" fill="none" stroke-linecap="round"/>
+  
+  <!-- Body - Rounded Rectangle -->
+  <rect x="60" y="125" width="80" height="60" rx="20" fill="url(#mainGradient)"/>
+  
+  <!-- Chest Circle with AI -->
+  <circle cx="100" cy="155" r="18" fill="#fff" opacity="0.3"/>
+  <circle cx="100" cy="155" r="14" fill="#4facfe"/>
+  <text x="100" y="162" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#fff" text-anchor="middle">AI</text>
+  
+  <!-- Arms - Simple Rounded -->
+  <rect x="35" y="135" width="25" height="20" rx="10" fill="url(#lightGradient)"/>
+  <circle cx="35" cy="145" r="12" fill="#764ba2"/>
+  
+  <rect x="140" y="135" width="25" height="20" rx="10" fill="url(#lightGradient)"/>
+  <circle cx="165" cy="145" r="12" fill="#764ba2"/>
+  
+  <!-- Legs - Simple -->
+  <rect x="70" y="185" width="22" height="12" rx="6" fill="url(#lightGradient)"/>
+  <rect x="108" y="185" width="22" height="12" rx="6" fill="url(#lightGradient)"/>
+</svg>
